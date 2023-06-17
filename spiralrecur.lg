@@ -1,0 +1,7 @@
+to spiralrecur :n
+if n < 1 [ stop ]
+fd n rt 20
+spiralrecur 0.95 * :n
+end
+
+
